@@ -5,11 +5,11 @@ Messing around with unity.
 To-do list:
 
 Finish making fighting scene:
--UI
--Auto generate character objects and position them
--Fighting system
--Save function
--Animation cycles
+1.UI
+2.Auto generate character objects and position them
+3.Fighting system
+4.Save function
+5.Animation cycles
 
 
 Everything else.
