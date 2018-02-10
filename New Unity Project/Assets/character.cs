@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class Character : MonoBehaviour {
+public class Character : Selectable{
 
 	struct armor{
 		int weight=0;
@@ -20,10 +20,13 @@ public class Character : MonoBehaviour {
 
 	static arm hands[2];
 
-
+	void is_selected(){
+		return isPressed();
+	};
+	
 	// Use this for initialization
 	void Start () {
-		
+		//DontDestroyOnLoad();
 	}
 	
 	// Update is called once per frame
