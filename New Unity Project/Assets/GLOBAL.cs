@@ -3,8 +3,6 @@ using System.Collections;
 
 public class GLOBAL : MonoBehaviour {
 		
-	//set the no destroy flag
-
 	
 	const uint x;
 	const uint y;
@@ -23,7 +21,8 @@ public class GLOBAL : MonoBehaviour {
 		int equip_slot=0;
 		int[] values; //be it attack,restore etc
 	}  
-
+	
+	mainTexture
 		
 	void play_music();	
 
@@ -33,11 +32,12 @@ public class GLOBAL : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		//DontDestroyOnLoad();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
 	}
+}
 }
